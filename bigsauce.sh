@@ -1,4 +1,4 @@
-secretsauce recipe with gnupg gpg
+#secretsauce recipe with gnupg gpg
 
 yum -y install screen
 gpg --gen-key
@@ -25,9 +25,9 @@ secretsauce.txt.gpg
 
 #remove the original file once it's encrypted
 #wipe, shred and erase secretsauce.txt
-wipe secretsauce.txt
-erase secretsauce.txt
-shred secretsauce.txt
+wipe secretsauce.txt #OR
+erase secretsauce.txt #OR
+shred secretsauce.txt #OR
 
 #if jim wants to open the file he needs to update his ~/.gnupg/gpg.conf with all the topchefs name or pubkey id
 #from jim's shell
@@ -46,9 +46,9 @@ gpg -e -r mygroup secretsauce.txt
 
 #make sure to remember to remove the original file once it's encrypted
 #wipe, shred and erase secretsauce.txt
-wipe secretsauce.txt
-erase secretsauce.txt
-shred secretsauce.txt
+wipe secretsauce.txt #OR
+erase secretsauce.txt #OR
+shred secretsauce.txt #OR
 
 
 

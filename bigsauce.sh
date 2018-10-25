@@ -42,7 +42,7 @@ gpg secretsauce.txt.gpg
 vi secretsauce.txt
 
 #reencrypt the file if new recipes are added
-gpg -e -r mygroup secretsauce.txt
+gpg -e -r topchef secretsauce.txt
 
 #make sure to remember to remove the original file once it's encrypted
 #wipe, shred and erase secretsauce.txt

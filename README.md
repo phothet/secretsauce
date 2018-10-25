@@ -1,4 +1,4 @@
-# secretsauce recipe with gnupg gpg
+secretsauce recipe with gnupg gpg
 
 yum -y install screen
 gpg --gen-key

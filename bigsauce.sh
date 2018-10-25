@@ -6,7 +6,10 @@
 # https://www.lifewire.com/wipe-vs-shred-vs-delete-vs-erase-whats-the-difference-2619146
 # https://davesteele.github.io/gpg/2014/09/20/anatomy-of-a-gpg-key/
 
-#without screen running, we can't enter password
+#if you login first as different user
+#you won't be able to enter passphrase
+#without screen running
+#https://unix.stackexchange.com/questions/378021/gpg-cancelled-by-user
 yum -y install screen
 
 #generate gpg key

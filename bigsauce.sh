@@ -1,6 +1,7 @@
 #secretsauce recipe with gnupg gpg
 
 # https://yanhan.github.io/posts/2014-03-04-gpg-how-to-trust-imported-key.html
+# https://yanhan.github.io/posts/2017-09-27-how-to-use-gpg-to-encrypt-stuff.html
 # http://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/
 # https://www.lifewire.com/wipe-vs-shred-vs-delete-vs-erase-whats-the-difference-2619146
 # https://davesteele.github.io/gpg/2014/09/20/anatomy-of-a-gpg-key/

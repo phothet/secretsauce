@@ -2,8 +2,9 @@ secretsauce recipe with gnupg gpg
 
 yum -y install screen
 gpg --gen-key
-> type in username (not firstname last name. just username)
-> type in password
+
+#type in username (not firstname last name. just username)
+#type in password
 
 #retrieve pub key by running 
 gpg --list-key
